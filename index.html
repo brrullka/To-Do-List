@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+<div class="main-table">
+<div class="baner-table">
+    <h1>To-Do <a style = "color: rgb(117, 0, 201);">List</a></h1>
+<p class="baner-txt">Маленькие шаги приводят к большим целям🚀</p>
+<hr>
+</div>
+
+
+<!-- блок создан для что бы задавать новые задачи-->
+<div class="new-list">
+
+<div class="add-list">
+<input type="text" class="add-list-text" placeholder="📝 Добавить новую задачу..."> 
+</div>
+
+<div class="add-list_button">
+<button class="button-add">+ Добавить</button>
+
+</div>
+</div>
+
+<!-- блок активности-->
+<div class="activity">
+
+
+<button class="button-all">Все</button>
+<button class="button-activity">Активные</button>
+<button class = "button-completed">Выполненые</button>
+
+</div>
+
+<!-- тут место для отображение задач-->
+ <div class="view-exercises">
+
+
+
+ </div>
+
+<!--список результат-->
+
+<div class="result">
+    <h3>Всего задач: <span class="total-count">0</span></h3>
+    <h3>Выполнены: <span class="completed-count">0</span></h3>
+    <h3>Осталось: <span class="active-count">0</span></h3>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+*{  margin:0; 
+    padding:0; 
+    box-sizing: border-box; 
+    font-family: segoe ui;}
+
+body{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-table{
+    width: 60%;
+    height: 95vh;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(68, 66, 68);
+    border-radius: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.baner-table{
+    height: 19vh;
+    width: 100%;
+    padding: 30px 0px  0px  50px;
+    color: white;
+}
+
+.baner-txt{color: grey;}
+
+hr {
+    width: 95%;
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin-top: 20px;
+}
+
+.new-list{
+    width: 100%;
+    height: 9vh;
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-list{width:75%;}
+
+
+
+.add-list-text{
+    width: 100%;
+    height: 6vh;
+    border: 1px solid gray;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    color:rgb(151, 151, 151);
+}
+
+.add-list_button{ width: calc(20% - 5px);}
+
+.button-add{
+    width:100%;
+    height: 6vh;
+    font-weight:500;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(117,0,201);
+    margin-left:5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.activity{
+    width: 95%;
+    height: 5vh;
+    padding: 0px 0px 0px 50px;
+}
+
+.button-activity , .button-completed , .button-all{
+border: none;
+border-radius: 10px; 
+background-color: rgb(34, 34, 34);
+color: white;
+font-weight: 500;
+height: 3.5vh;
+cursor:pointer;
+}
+
+.button-activity, .button-all , .button-completed{
+    transition: transform 0.4s, ease;
+}
+
+.button-activity:hover,
+.button-all:hover,
+.button-completed:hover{
+    background-color: purple;
+}
+
+.button-activity:focus,
+.button-completed:focus,
+.button-all:focus {
+    background-color: purple;
+}
+
+.button-all{width: 10%;}
+.button-activity{width:13%}
+.button-completed{width: 16%;}
+
+
+.view-exercises{
+    width:calc(95% - 50px);
+    margin-left: 50px;
+    height: 50vh;
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: gray;
+    margin-top: 10px;
+    width: calc(95% - 50px);
+    height: 7vh;
+    margin-left:50px;
+    padding: 0px 40px;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 23);
+}
+
+.task-item{
+    color: white;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 13px;
+    border: 1px solid #383838;
+    margin:7px 10px 0px 10px;
+
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
